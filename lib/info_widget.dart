@@ -70,6 +70,7 @@ class InfoWidget extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 80),
                     child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(primary: Colors.redAccent),
                         onPressed: () async {
                           final result =
                               await Connectivity().checkConnectivity();
