@@ -38,6 +38,7 @@ dependencies:
   device_info: ^2.0.3
   connectivity: ^3.0.6
   overlay_support: ^1.2.1
+  network_info_plus: ^2.1.1
 
 dev_dependencies:
   flutter_test:

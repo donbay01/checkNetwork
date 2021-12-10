@@ -1,4 +1,4 @@
-import 'package:deviceinfo/homePage.dart';
+import 'package:deviceinfo/screens/first_page.dart';
 import 'package:flutter/material.dart';
 import 'package:overlay_support/overlay_support.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MyHomePage(),
+        home: FirstPage(),
       ),
     );
   }
